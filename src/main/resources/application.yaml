@@ -3,9 +3,9 @@ spring:
     name: parqueadero
 
   datasource:
-    url: ${DATABASE_URL}
-    username: ${DB_USER}
-    password: ${DB_PASSWORD}
+    url: jdbc:postgresql://postgres.railway.internal:5432/railway
+    username: postgres
+    password: vPozDBCEKskqyLqHDIkGiBXeCfWqQKhN
   jpa:
     hibernate:
       ddl-auto: update
